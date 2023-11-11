@@ -247,4 +247,31 @@ Trong đó:
     ```
 
 ## Bootstrap:
+(in progress)
+
+# Blockchain, Etherium và Smart Contact:
+## Blockchain: 
+**1. Khái niệm**
+Là hệ thống cơ sở dữ liệu cho phép lưu trữ và truyền tải các khối thông tin. Chúng được liên kết nhau nhờ mã hoá.
+Các khối thông tin hoạt động độc lập mà có thể mở rộng theo thời gian, được quản lí bởi những người tham gia hệ thống.
+
+**2. Cách hoạt động**
+Để một block – khối thông tin được thêm vào Blockchain, phải có 4 yếu tố:
+* Phải có giao dịch
+* Giao dịch đó phải được xác minh
+* Giao dịch đó phải được lưu trữ trong block
+* Block đó phải nhận được hash
+
+## Etherium: 
+**1. Khái niệm**
+Ethereum là một "không gian mạng" cho các máy tính trên toàn thế giới, cùng tuân theo một loạt quy tắc gọi là giao thức Etherum. Bất kì ai cũng có thể tham gia sử dụng và đóng góp không giới hạn.
+
+**2. Lợi ích**
+- Ai cũng có thể tham gia
+- Giao dịch toàn cầu nhanh chóng và dễ dàng hơn, kể cả khi đất nước người dùng đang trong thời kì khủng hoảng
+- Khai thác nguồn content mới dành cho các creator
+- "Play to earn"
+
+## Smart contact:
+
 

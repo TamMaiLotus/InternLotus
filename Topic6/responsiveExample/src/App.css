@@ -1,0 +1,114 @@
+body {
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+#header .navbar {
+    justify-content: space-between;
+}
+
+#header .navbar-collapse {
+    flex-grow: 0;
+}
+
+.wrapper {
+    padding: 0 5vw 3vh;
+    width: 100vw;
+}
+
+#carouselE {
+    padding: 10px 10vw;
+    height: 1fr;
+    width: 100vw;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.box {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.mQueriesImage {
+    float: left;
+    padding: 15px;
+    width: 90vw;
+    height: auto;
+}
+
+.container-custom {
+    height: 20vh;
+    padding: 2vh 5vw;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 16vw;
+    height: 80%;
+    background-color: red;
+    padding: 1em;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.jContent {
+    justify-content: space-evenly;
+}
+
+.alItems {
+    align-items: center;
+}
+
+.fwrap {
+    flex-wrap: wrap;
+}
+
+.alContent {
+    align-content: flex-start;
+}
+
+@media (max-width: 64em) {
+    .mQueriesImage {
+        display: none;
+    }
+}
